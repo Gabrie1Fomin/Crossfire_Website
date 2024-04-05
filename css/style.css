@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Moderna;
+    src: url(MODERNA_.TTF);
+    color:white;
+}
+
+@font-face {
+    font-family: ModernSans;
+    src: url(ModernSans-Light\ 2.otf);
+    color:white;
+}
+
+
+body {
+    background-image: url(/Images/Website_Background-transformed.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This keeps the background image fixed during scrolling */
+}
+
+
+.container{
+    width:100vw;
+    display:flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.column{
+    width:33.33vw;
+}
+
+.splitmiddle {
+    width:50vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+
+.middle-column{
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+    position:relative;
+}
+
+.top-container{
+    height: 100vh;
+    display:flex;
+    flex-flow:column;
+}
+
+.bottom-container{
+    display:flex;
+    flex-grow: 1;
+}
+
+.box{
+    height: 20vh;
+    flex-flow: column;
+}
+
+.box-style2{
+    height:33vh;
+    flex-flow:row;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+
+.box-style3{
+    height: 50vh;
+    flex-flow:row;
+    margin-left: 5vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.h1{
+    text-align: center;
+    color:steelblue;
+}
+
+.container-img{
+    height: auto;
+    width: 33.33vh;
+    flex-flow:column;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    border: 3px solid #ffffff;
+    border-color: steelblue;
+}
+
+.img-large{
+    height: auto;
+    width: 50vh;
+    display: flex;
+    text-align: center;
+    border-radius: 5px;
+    border: 3px solid #ffffff;
+    border-color: steelblue; 
+}
+
+
+.header-section a:link {
+    height: auto;
+    width:20vh;
+    margin: 0;
+    justify-content: center;
+    flex-flow: row;
+    display: flex;
+    color:steelblue;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #0d36ea;
+}
+
+.header-section a:visited {
+    height: auto;
+    width:20vh;
+    margin: 0;
+    justify-content: center;
+    flex-flow: row;
+    display:flex;
+    color:steelblue;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #0d36ea;
+
+}
+
+
+
+.header-section a:hover {
+    height: auto;
+    width:20vh;
+    margin: 0;
+    justify-content: center;
+    flex-flow: row;
+    display:flex;
+    color:blue;
+    text-decoration: none;
+    text-shadow: 2px 2px 8px #0d36ea;
+}
+
+.vid{
+    height:auto;
+    width:50vh;
+    display: flex;
+    text-align: center;
+    align-items: stretch;
+    flex-flow: row ;
+    max-height: fit-content;
+    flex: 0 1 auto;
+    border: 3px solid #ffffff;
+    border-color: steelblue;
+    border-radius: 5px;
+    margin-top: 3vh;
+}
+
+
+.model{
+    display:flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    flex: 0 1 auto;
+
+
+    
+}
